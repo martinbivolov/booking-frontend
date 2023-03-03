@@ -6,6 +6,7 @@ import ListScreen from "../screens/ListScreen";
 export type StackMain = {
     List: undefined;
     Edit: { booking: BookingEntity };
+    Delete: { booking: BookingEntity };
   };
 
 const Stack = createNativeStackNavigator<StackMain>();
